@@ -1,17 +1,43 @@
 
-
 .home-container {
     text-align: center;
+    margin: 150px auto;
+    width: 75%;
+    border-style: solid;
+    background-color: #6C5B7B;
+    color: beige;
+}
+
+h1 {
+    background-color: #35477D;
+    padding: 80px 50px;
+    margin-top: 0;
+}
+
+h2 {
+    margin-bottom: 0;
 }
 
 .ul-nav {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 25px 0 100px 0;
+}
+
+.ingredients {
+    list-style-type: none;
+    margin: 0;
+    padding: 25px 0 50px 0;
+}
+
+.steps {
+    text-align: left;
+    margin: 0;
+    padding: 25px 0 50px 30px;
 }
 
 .back-button {
-    background-color: #4ea6f8;
+    background-color: #F67280;
     border: none;
     color: white;
     padding: 16px 32px;
@@ -27,4 +53,14 @@
 
 .back-button:hover {
     opacity: 1
+}
+
+a:hover {
+    color: #C06C84;
+    text-decoration: underline;
+}
+
+a {
+    color: beige;
+    text-decoration: none;
 }
